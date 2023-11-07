@@ -1,0 +1,98 @@
+/* ============================== Footer Style ============================== */
+.footer-widgets {
+  background-color: var(--dark-color-50) !important;
+  border-radius: 1rem;
+  padding: 4rem 3.5rem;
+  margin-bottom: 5rem;
+  position: relative;
+}
+.footer-widgets::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 50rem;
+  height: 4rem;
+  background-color: var(--primary-color);
+  border-radius: 5rem;
+  bottom: -1.5rem;
+  z-index: -1;
+}
+.footer-widgets__title {
+  display: block;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  position: relative;
+  color: var(--white-color);
+}
+.footer-widgets__title::before {
+  content: "";
+  position: absolute;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: var(--primary-color);
+  border-radius: 0.7rem;
+  opacity: 0.3;
+  transform: rotate(45deg);
+  right: 1rem;
+}
+.footer-widgets__text {
+  color: var(--dark-color-text) !important;
+}
+.footer-widgets__links {
+  display: flex;
+  flex-direction: column;
+  
+  color: var(--dark-color-text)
+}
+.footer-widgets__link {
+  display: block;
+  margin-bottom: 1rem;
+  color: var(--dark-color-text);
+
+}
+.footer-widgets__form{
+  margin-top: 2rem;
+  position: relative;
+}
+.footer-widgets__input{
+  height: 3.5rem;
+  border: 1px solid #b8b8b8;
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
+  width: 100% !important;
+  padding-right: 0.3rem;
+  background-color: var(--dark-color-50);
+  color: var(--dark-color-text);
+}
+.footer-widgets__btn{
+  border: none;
+  background-color: var(--dark-color-text);
+  border-radius: .1rem 0 0 0.1rem;
+  color: var(--white-color);
+  font-size: 1.2rem;
+  height: 3.09rem;
+  padding: 0 1rem;
+  transition: 300ms all ease;
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+
+}
+.footer-widgets__btn:hover {
+  background-color: var(--primary-color);
+}
+.footer__copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c1c28 !important;
+  padding: 3rem 0;
+    border-top: 1px solid var(--dark-color-text) !important;
+}
+.footer__copyright-text {
+  color: var(--dark-color-text) !important;
+}
+/* ============================== Footer Style ============================== */
