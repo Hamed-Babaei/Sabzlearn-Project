@@ -144,14 +144,15 @@
   margin-left: 0.5rem;
 }
 .comments__respond {
-  background-color: #f0f2f7;
+  background-color: #32334d;
   border-radius: 0.5rem;
   padding: 3rem;
   margin-top: 1rem;
 }
 .comments__score-title {
   font-size: 1.5rem;
-  color: #6c757d;
+  color: var(--white-color);
+  margin-bottom: 0.5rem;
 }
 .comments__score-input {
   display: flex;
@@ -167,21 +168,25 @@
   transition: all 400ms ease;
 }
 .comments__score-input:hover {
-  background-color: #1e83f0;
+  background-color: #94a1b4;
   color: var(--white-color);
 }
 .comments__respond-title {
   font-size: 1.5rem;
-  color: #6c757d;
-  margin-bottom: 0.5rem;
+  color: var(--white-color);
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
 }
 .comments__score-input-respond {
   width: 100%;
   height: 20rem;
   outline: none;
   border: none;
-  border: 1px solid #e5e5e5;
+  border: none;
   border-radius: 0.5rem;
+  background-color: #4a4b6d;
+  padding: 1rem;
+  color: var(--white-color);
 }
 .comments__respond-btn {
   background-color: var(--primary-color);
@@ -192,7 +197,16 @@
   padding: 0.5rem 2rem;
   margin-top: 2rem;
 }
-
+.form-select option {
+  background-color: var(--dark-color-50);
+  color: var(--white-color);
+}
+.form-select option:hover {
+  background-color: #4a4b6d !important;
+}
+.form-select select {
+  background-color: #15cc79 !important;
+}
 .font-bold {
   font-size: 1.5rem !important;
 }

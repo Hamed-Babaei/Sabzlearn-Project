@@ -126,6 +126,7 @@
   
   .accordion-item {
     background-color: #32334d;
+    border: none;
   }
   
   .accordion-button {
@@ -133,6 +134,7 @@
     color: var(--white-color) !important;
     font-size: 1.5rem;
     padding: 1.25rem;
+    border-bottom: none !important; 
   }
   .accordion-button:focus {
     border: none !important;
