@@ -129,9 +129,14 @@
   }
   
   .accordion-button {
-    background-color: #f7f9fa;
+    background-color: #4a4b6d !important;
+    color: var(--white-color) !important;
     font-size: 1.5rem;
     padding: 1.25rem;
+  }
+  .accordion-button:focus {
+    border: none !important;
+    outline: none !important;
   }
 
   
@@ -145,6 +150,7 @@
     width: 2rem;
     height: 2rem;
     background-position: center;
+    color: var(--white-color) !important;
   }
   
   .introduction__accordion-body {
@@ -158,6 +164,7 @@
     display: flex;
     align-items: center;
   }
+
   
   .introduction__accordion-count {
     width: 3.5rem;
