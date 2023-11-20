@@ -14,13 +14,14 @@
     margin: 2rem 0;
     font-weight: bold;
     font-size: 2.4rem;
-    color: #464749;
+    color: var(--white-color) ;
+
   }
   
   .course-info__text {
     margin-bottom: 3rem;
     font-size: 1.6rem;
-    color: #7b868a;
+    color: var(--white-color);
   }
   
   .course-info__social-media-item {
@@ -44,7 +45,7 @@
     border-radius: 1rem;
     margin: 3rem 0;
     padding: 2rem 2rem 1.2rem 2rem;
-    background-color: #f0f2f7;
+    background-color: #28293d;
   }
   
   .course-progress__header {
@@ -81,6 +82,7 @@
     padding: 3rem;
     border-radius: 0.5rem;
     box-shadow: 0 0 13px 1px rgba(70, 72, 77, 0.08);
+    background-color: #28293d;
   }
   
   .introduction__img {
@@ -91,7 +93,7 @@
   
   .introduction__text {
     margin-top: 2rem;
-    color: #7a7a7a;
+    color: var(--white-color);
     font-size: 1.5rem;
   }
   
@@ -110,7 +112,7 @@
   }
   
   .introduction__btns-item:hover {
-    color: var(--white-color);
+    color: var(--white-color) !important;
     background-color: var(--primary-color);
   }
   
@@ -123,7 +125,7 @@
   }
   
   .accordion-item {
-    background-color: #f7f9fa;
+    background-color: #32334d;
   }
   
   .accordion-button {
@@ -226,6 +228,10 @@
     color: #7b868a;
     font-size: 1.2rem;
   }
+  .introduction__title  {
+    color: var(--white-color) !important;
+  }
+ 
   
   .techer-details__header-left {
     display: flex;

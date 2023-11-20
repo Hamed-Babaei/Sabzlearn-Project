@@ -351,7 +351,7 @@ export default function CourseInfo() {
                     </p>
                   </div>
                   <div className="introduction__item">
-                    <span className="introduction__title title">
+                    <span className="introduction__title title ">
                       هدف از این دوره چیست؟ (تنها راه ورود به بازار کار و کسب
                       درآمد)
                     </span>
