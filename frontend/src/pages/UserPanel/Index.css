@@ -210,17 +210,21 @@ body {
 }
 
 .content-header {
-  border-top: 2px solid #2bce56;
-  border-bottom: 2px solid #2bce56;
+  
+  border-bottom: 2px solid #2bce56; 
+  border-top: none !important;
   padding: 1.7rem 0;
 }
 .content-header__title {
   display: block;
   font-weight: bold;
   font-size: 2.3rem;
+  color: var(--white-color);
 }
 .content-header__subtitle {
   font-size: 1.3rem;
+  color: var(--white-color);
+
 }
 /* ============================== Content Header Style ============================== */
 
@@ -230,7 +234,7 @@ body {
 }
 
 .sidebar__name {
-  color: var(--dark-color);
+  color: var(--white-color) !important;
   font-size: 1.7rem;
 }
 .sidebar__list {
@@ -241,6 +245,8 @@ body {
   padding: 1rem 0;
   font-weight: bold;
   font-size: 1.4rem;
+  color: var(--white-color);
+
 }
 /* ============================== Content Sidebar Style ============================== */
 
@@ -251,6 +257,8 @@ body {
 }
 .main__title-text {
   font-size: 1.7rem;
+  color: var(--white-color);
+
 }
 .main__title-name {
   color: #2bce56;
@@ -263,6 +271,8 @@ body {
 }
 .main__desc {
   margin: 2.3rem 0 2rem 0;
+  color: #94a1b4;
+
 }
 .main__link {
   display: block;
@@ -272,10 +282,12 @@ body {
   border-radius: 0.3rem;
   margin-bottom: 1.5rem;
   transition: all 400ms ease;
+  color: var(--white-color);
+
 }
 .main__link:hover {
   background-color: #2bce56;
-  color: var(--white-color);
+  color: var(--white-color) !important;
 }
 /* ============================== Content Main Style ============================== */
 
