@@ -4,11 +4,13 @@
   border-radius: 0.5rem;
   box-shadow: 0 0 13px 1px rgba(70, 72, 77, 0.08);
   padding: 2rem 2.5rem;
+  background-color: #28293d;
 }
 .comments__header {
   display: flex;
   align-items: center;
   margin-bottom: 5rem;
+  color: var(--white-color);
 }
 .comments__header-icon-content {
   background-color: var(--primary-color);
@@ -27,7 +29,7 @@
   margin-right: 1rem;
 }
 .comments__item {
-  background-color: #f9fafd;
+  background-color: #32334d;
   border-radius: 1rem;
   border: 1px dashed #ccc;
   padding: 3rem;
@@ -43,10 +45,14 @@
   display: flex;
   align-items: center;
 }
+.comments__question-paragraph {
+  color: var(--white-color) !important;
+  margin-bottom: 1rem;
+}
 .comment-name {
   font-size: 1.5rem;
   font-weight: bold;
-  color: var(--dark-color);
+  color: var(--white-color);
 }
 .comment-status {
   display: flex;
@@ -61,7 +67,7 @@
 }
 .comment-date {
   font-size: 1.5rem;
-  color: #adb5bd;
+  color: #94a1b4;
 }
 .comment-link {
   font-size: 1.2rem;
@@ -118,12 +124,12 @@
 .comments__rules-title {
   font-size: 1.5rem;
   font-weight: bold;
-  color: var(--dark-color);
+  color: var(--white-color);
   margin-bottom: 1.5rem;
 }
 .comments__rules-item {
   font-size: 1.2rem;
-  color: #7b868a;
+  color: #94a1b4;
   margin-bottom: 0.5rem;
 }
 .comments__rules-icon {
@@ -134,6 +140,7 @@
   background-color: #f0f2f7;
   border-radius: 0.5rem;
   padding: 3rem;
+  margin-top: 1rem;
 }
 .comments__score-title {
   font-size: 1.5rem;

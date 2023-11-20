@@ -205,6 +205,7 @@
     margin-top: 3.5rem;
     margin-bottom: 2rem;
     box-shadow: 0 0 13px 1px rgba(70, 72, 77, 0.08);
+    background-color: #28293d ;
   }
   
   .techer-details__header {
@@ -233,11 +234,12 @@
   
   .techer-details__header-link {
     text-decoration: none;
-    color: #7b868a;
+    color: var(--white-color) !important;
+
   }
   
   .techer-details__header-skill {
-    color: #7b868a;
+    color: #94a1b4;
     font-size: 1.2rem;
   }
   .introduction__title  {
@@ -266,7 +268,7 @@
   
   .techer-details__footer {
     margin-top: 1rem;
-    color: #7b868a;
+    color: #94a1b4;
     font-size: 14px;
   }
   
