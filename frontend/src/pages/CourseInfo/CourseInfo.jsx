@@ -240,7 +240,7 @@ export default function CourseInfo() {
         ]}
       />
 
-      <section className="course-info">
+      <section className="course-info-main">
         <div className="container">
           <div className="row">
             <div className="col-6">
