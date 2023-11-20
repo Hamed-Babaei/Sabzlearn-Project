@@ -31,9 +31,15 @@
 .comments__item {
   background-color: #32334d;
   border-radius: 1rem;
-  border: 1px dashed #ccc;
+  /* border: 1px dashed #ccc; */
   padding: 3rem;
   margin-bottom: 3rem;
+}
+.comments__item-answer {
+  background-color: #4a4b6d;
+  border-radius: 1rem;
+  padding: 3rem;
+
 }
 .comments__question-header,
 .comments__ansewr-header {
@@ -71,11 +77,12 @@
 }
 .comment-link {
   font-size: 1.2rem;
+  font-weight: bold;
   color: #b1bbbf;
   border: 1px solid #b1bbbf;
   padding: 0.5rem 1.2rem;
   border-radius: 0.3rem;
-  background-color: #fff;
+  background-color:#94a1b4;
 }
 .comments__question-text {
   margin-top: 1rem;

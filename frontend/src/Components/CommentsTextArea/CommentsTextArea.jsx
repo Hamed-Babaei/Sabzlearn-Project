@@ -43,14 +43,7 @@ export default function CommentsTextArea({ comments, submitComment }) {
                         {comment.createdAt.slice(0, 10)}
                       </span>
                     </div>
-                    <div className="comments__question-header-left">
-                      <a
-                        className="comments__question-header-link comment-link"
-                        href="#"
-                      >
-                        پاسخ
-                      </a>
-                    </div>
+                    <div className="comments__question-header-left"></div>
                   </div>
                   <div className="comments__question-text">
                     <p className="comments__question-paragraph comment-paragraph">
@@ -58,7 +51,7 @@ export default function CommentsTextArea({ comments, submitComment }) {
                     </p>
                   </div>
                   {comment.answerContent && (
-                    <div className="comments__item">
+                    <div className="comments__item-answer">
                       <div className="comments__question">
                         <div className="comments__question-header">
                           <div className="comments__question-header-right">
@@ -74,14 +67,7 @@ export default function CommentsTextArea({ comments, submitComment }) {
                               {comment.answerContent.createdAt.slice(0, 10)}
                             </span>
                           </div>
-                          <div className="comments__question-header-left">
-                            <a
-                              className="comments__question-header-link comment-link"
-                              href="#"
-                            >
-                              پاسخ
-                            </a>
-                          </div>
+                          <div className="comments__question-header-left"></div>
                         </div>
                         <div className="comments__question-text">
                           <p className="comments__question-paragraph comment-paragraph">
@@ -94,7 +80,7 @@ export default function CommentsTextArea({ comments, submitComment }) {
                 </div>
               </div>
             ))}
-            <div className="comments__pagantion">
+            {/* <div className="comments__pagantion">
               <ul className="comments__pagantion-list">
                 <li className="comments__pagantion-item">
                   <a href="#" className="comments__pagantion-link">
@@ -120,7 +106,7 @@ export default function CommentsTextArea({ comments, submitComment }) {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </>
         )}
       </div>
