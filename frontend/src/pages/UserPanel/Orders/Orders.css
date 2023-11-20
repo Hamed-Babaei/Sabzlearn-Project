@@ -7,13 +7,20 @@
   width: 100%;
 }
 .order__table-header {
+  color: var(--white-color);
+  padding-bottom: 0.5rem !important;
   border-bottom: 1px solid #85858570;
+}
+.order__table-body-link {
+  color: var(--white-color);
+
 }
 .order__table-header-item {
   font-size: 1.5rem;
   font-weight: bold;
 }
 .order__table-body-list {
+  color: #94a1b4;
   border-bottom: 1px solid #85858570;
 }
 .order__table-body-item {
@@ -32,7 +39,7 @@
   border-radius: 0.3rem;
 }
 .order__table-body-btn:hover {
-  color: var(--white-color);
+  color: var(--white-color) !important;
   background-color: #33b355;
 }
 .order__btn {

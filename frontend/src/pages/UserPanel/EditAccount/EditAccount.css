@@ -3,11 +3,17 @@
   border-right: 2px solid #2bce56;
   padding-right: 3rem;
 }
+.edit__form {
+  background-color: var(--dark-color-50);
+  padding: 1.5rem 2.5rem;
+  border-radius: 1rem;
+
+}
 .edit__label {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin: 1rem 0;
-  color: var(--dark-color);
+  color: var(--white-color);
 }
 .edit__input {
   width: 100%;
@@ -15,8 +21,13 @@
   border: 1px solid #2bce56;
   border-radius: 0.5rem;
   font-size: 1.4rem;
+  font-weight: 500;
   padding: 0.5rem 1rem;
-  color: #464749;
+  color: #94a1b4;
+  background-color: #32334d;
+}
+.edit__input:placeholder {
+  color: #000 !important;
 }
 .edit__help {
   display: block;
@@ -24,6 +35,7 @@
   font-weight: bold;
   margin: 1rem 0;
   font-size: 1.5rem;
+  color: #94a1b4;
 }
 .edit__password {
   margin-top: 2rem;
