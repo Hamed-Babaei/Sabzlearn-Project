@@ -190,7 +190,7 @@ export default function Users() {
               <label className="input-title">نام و نام خانوادگی</label>
               <Input
                 type="text"
-                classNameName=""
+                className=""
                 id="name"
                 element="input"
                 validations={[
@@ -209,7 +209,7 @@ export default function Users() {
               <label className="input-title">نام کاربری</label>
               <Input
                 type="text"
-                classNameName=""
+                className=""
                 id="username"
                 element="input"
                 validations={[
@@ -228,7 +228,7 @@ export default function Users() {
               <label className="input-title">ایمیل</label>
               <Input
                 type="text"
-                classNameName=""
+                className=""
                 id="email"
                 element="input"
                 validations={[
@@ -248,7 +248,7 @@ export default function Users() {
               <label className="input-title">رمز عبور</label>
               <Input
                 type="text"
-                classNameName=""
+                className=""
                 id="password"
                 element="input"
                 validations={[
@@ -267,7 +267,7 @@ export default function Users() {
               <label className="input-title">شماره تلفن</label>
               <Input
                 type="text"
-                classNameName=""
+                className=""
                 id="phone"
                 element="input"
                 validations={[

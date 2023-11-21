@@ -257,12 +257,14 @@ body {
 }
 .courses-header__item {
   margin: 1rem 0 1rem 3.5rem;
+  color: var(--white-color);
 }
 .courses-header__link__panel {
   font-size: 1.5rem;
+  color: var(--white-color) !important;
 }
 .courses-header__link-active {
-  color: #2bce56;
+  color: #2bce56 !important;
   font-weight: bold;
 }
 .main__box {
@@ -286,6 +288,7 @@ body {
   font-size: 1.8rem;
   font-weight: bold;
   margin-top: 1rem;
+  color: var(--white-color);
 }
 .main__box-bottom {
   display: flex;
@@ -298,13 +301,21 @@ body {
   font-weight: bold;
   color: #2bce56;
 }
+.main__box-all-value {
+  color: #2bce56;
+  margin-right: 0.5rem;
+}
+.main__box-completed-value {
+  color: #2bce56;
+  margin-right: 0.5rem; 
+}
 
 .main__box-completed {
   margin-left: 3rem;
 }
 .main__box-completed-text {
   font-weight: bold;
-  color: #2bce56;
+  color: var(--white-color) !important;
 }
 
 /* ============================== Content Main Style ============================== */
@@ -718,7 +729,7 @@ body {
 }
 .main__box-all-text {
   font-weight: bold;
-  color: #2bce56;
+  color: var(--white-color);
 }
 
 .main__box-completed {

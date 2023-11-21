@@ -12,7 +12,7 @@
 .ticket-header__title {
     display: block;
     font-size: 1.4rem;
-    color: var(--dark-color);
+    color: var(--white-color) !important;
     font-weight: bold;
 }
 .ticket-header__link {
@@ -28,12 +28,18 @@
 }
 .ticket-header__link:hover {
     background-color: #2eb351;
-    color: var(--white-color);
+    color: var(--white-color) !important;
 }
 .ticket-form {
     margin: 2rem 0;
 }
+.ticket-parent {
+    padding: 1.5rem 2.5rem;
+    background-color: var(--dark-color-50);
+    border-radius: 1rem;
+}
 .ticket-form__label {
+    color: var(--white-color);
     display: block;
     font-size: 1.3rem;
     font-weight: bold;
@@ -46,13 +52,17 @@
     margin: 1rem 0 1rem 1.5rem;
     padding: 0.4rem 0.5rem 0.4rem 1rem;
     font-size: 1.4rem;
-    background: var(--white-color);
+    /* background: #32334d; */
+    background: #32334d;
+    color: var(--white-color);
+
 }
 .ticket-form__option {
     font-size: 1.4rem;
 }
 .ticket-form__textarea {
     height: 30rem;
+    padding: 1rem;
 }
 .ticket-form__file {
     display: flex;
@@ -64,12 +74,17 @@
 }
 .ticket-form__file-max {
     font-size: 1.3rem;
+    color: var(--white-color);
 }
 .ticket-form__file-format {
     font-size: 1.3rem;
     padding: 1rem 0;
+    color: var(--white-color);
+
 }
 .ticket-form__file-input {
+    color: var(--white-color);
+
 }
 .ticket-form__btn {
     border: none;
@@ -86,5 +101,6 @@
 }
 .ticket-form__btn-icon {
     font-size: 1.5rem;
+    margin-left: 0.5rem;
 }
 /* ============================== Content Main Style ============================== */

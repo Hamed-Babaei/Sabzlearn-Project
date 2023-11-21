@@ -157,7 +157,7 @@ export default function Courses() {
                   ))}
                 </>
               ) : (
-                <div classNameName="alert alert-danger">
+                <div className="alert alert-danger">
                   دوره‌ای جهت نمایش برای این فیلتر وجود ندارد
                 </div>
               )}
