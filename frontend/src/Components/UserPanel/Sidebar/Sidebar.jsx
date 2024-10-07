@@ -32,7 +32,7 @@ export default function Sidebar() {
   return (
     <div className="col-3">
       <div className="sidebar">
-        <span className="sidebar__name">محمدامین سعیدی راد</span>
+        <span className="sidebar__name">حامد بابایی</span>
         <ul className="sidebar__list">
           <li className="sidebar__item">
             <Link className="sidebar__link" to="/my-account">
